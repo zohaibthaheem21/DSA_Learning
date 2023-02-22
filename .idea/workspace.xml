@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/ArraySearching.java" afterDir="false" />
+    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I am adding Search methods file.">
+      <change afterPath="$PROJECT_DIR$/src/ArrayMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArraySearching">
+  <component name="RunManager" selected="Application.ArrayMethods">
     <configuration name="ArrayDeletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayDeletion" />
       <module name="DSA_Learning" />
@@ -50,6 +50,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayMethods" />
+      <module name="DSA_Learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArraySearching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraySearching" />
       <module name="DSA_Learning" />
@@ -59,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayMethods" />
         <item itemvalue="Application.ArraySearching" />
         <item itemvalue="Application.ArrayDeletion" />
         <item itemvalue="Application.ArrayInsertion" />
@@ -109,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676981320699</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="I am adding Search methods file.">
+      <created>1677062837423</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677062837423</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I have added the insertAtFirst method and traverse method" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="I am adding Search methods file." />
+    <option name="LAST_COMMIT_MESSAGE" value="I am adding Search methods file." />
   </component>
 </project>
