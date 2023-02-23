@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I am adding Search methods file." />
+    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I am adding methods of array in this file.">
+      <change afterPath="$PROJECT_DIR$/src/LinkedListInsertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayMethods">
+  <component name="RunManager" selected="Application.LinkedListInsertion">
     <configuration name="ArrayDeletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayDeletion" />
       <module name="DSA_Learning" />
@@ -61,8 +64,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedListInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListInsertion" />
+      <module name="DSA_Learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListInsertion" />
         <item itemvalue="Application.ArrayMethods" />
         <item itemvalue="Application.ArraySearching" />
         <item itemvalue="Application.ArrayDeletion" />
@@ -128,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677065305753</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="I am adding methods of array in this file.">
+      <created>1677066846319</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677066846319</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +164,7 @@
     <MESSAGE value="I have added the insertAtFirst method and traverse method" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="I am adding Search methods file." />
-    <option name="LAST_COMMIT_MESSAGE" value="I am adding Search methods file." />
+    <MESSAGE value="I am adding methods of array in this file." />
+    <option name="LAST_COMMIT_MESSAGE" value="I am adding methods of array in this file." />
   </component>
 </project>
