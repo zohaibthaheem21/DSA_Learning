@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added a new file with name LinkedListInsertion and in this file I have added traverse method now">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListInsertion.java" afterDir="false" />
-    </list>
+    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added size method in LinkedListInsertion file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677131939841</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="I have added size method in LinkedListInsertion file">
+      <created>1677251194052</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677251194052</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +177,7 @@
     <MESSAGE value="I am adding Search methods file." />
     <MESSAGE value="I am adding methods of array in this file." />
     <MESSAGE value="I have added a new file with name LinkedListInsertion and in this file I have added traverse method now" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have added a new file with name LinkedListInsertion and in this file I have added traverse method now" />
+    <MESSAGE value="I have added size method in LinkedListInsertion file" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have added size method in LinkedListInsertion file" />
   </component>
 </project>
