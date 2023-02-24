@@ -19,6 +19,18 @@ public class LinkedListInsertion {
             }
         }
     }
+
+    // size method
+    public static int size(Node head) {
+        Node temp = head;
+        int count = 0;
+        while (temp!=null) {
+            temp = temp.next;
+            count++;
+        }
+        return count;
+    }
+
     // main method
     public static void main(String[] args) {
         LinkedListInsertion list = new LinkedListInsertion();
@@ -28,6 +40,8 @@ public class LinkedListInsertion {
         head.next.next.next = new Node(40);
         head.next.next.next.next = new Node(50);
 
-        list.traverse(head);
+//        list.traverse(head);
+
+        System.out.println(size(head));
     }
 }
