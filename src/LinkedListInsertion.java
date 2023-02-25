@@ -31,6 +31,18 @@ public class LinkedListInsertion {
         return count;
     }
 
+    // insertAtFirst
+    public static Node insertAtFirst(Node head, int data) {
+        Node newNode =  new Node(data);
+        if (head==null) {
+            head = newNode;
+            return head;
+        }
+        newNode.next = head;
+        head = newNode;
+        return head;
+    }
+
     // main method
     public static void main(String[] args) {
         LinkedListInsertion list = new LinkedListInsertion();
@@ -42,6 +54,9 @@ public class LinkedListInsertion {
 
 //        list.traverse(head);
 
-        System.out.println(size(head));
+//        System.out.println(size(head));
+
+        head = insertAtFirst(head,21);
+        list.traverse(head);
     }
 }
