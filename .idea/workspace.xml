@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added insertAtLast method in LinkedListInsertion file">
+    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added insertAMid and insertAtPosition methods in LinkedListInsertion file">
+      <change afterPath="$PROJECT_DIR$/src/LinkedListDeletion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListInsertion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +35,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedListInsertion">
+  <component name="RunManager" selected="Application.LinkedListDeletion">
     <configuration name="ArrayDeletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayDeletion" />
-      <module name="DSA_Learning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayInsertion" />
       <module name="DSA_Learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,6 +57,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedListDeletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListDeletion" />
+      <module name="DSA_Learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedListInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedListInsertion" />
       <module name="DSA_Learning" />
@@ -73,11 +73,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListDeletion" />
         <item itemvalue="Application.LinkedListInsertion" />
         <item itemvalue="Application.ArrayMethods" />
         <item itemvalue="Application.ArraySearching" />
         <item itemvalue="Application.ArrayDeletion" />
-        <item itemvalue="Application.ArrayInsertion" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677422893983</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="I have added insertAtLast method in LinkedListInsertion file">
+      <created>1677498903862</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677498903862</updated>
+    </task>
+    <task id="LOCAL-00015" summary="I have added insertAMid and insertAtPosition methods in LinkedListInsertion file">
+      <created>1677499082365</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677499082365</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +218,7 @@
     <MESSAGE value="I have added size method in LinkedListInsertion file" />
     <MESSAGE value="I have added insertAtFirst method in LinkedListInsertion file" />
     <MESSAGE value="I have added insertAtLast method in LinkedListInsertion file" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have added insertAtLast method in LinkedListInsertion file" />
+    <MESSAGE value="I have added insertAMid and insertAtPosition methods in LinkedListInsertion file" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have added insertAMid and insertAtPosition methods in LinkedListInsertion file" />
   </component>
 </project>
