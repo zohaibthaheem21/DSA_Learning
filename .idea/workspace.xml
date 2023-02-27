@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added insertAtFirst method in LinkedListInsertion file" />
+    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added insertAtLast method in LinkedListInsertion file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListInsertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListInsertion.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677345349912</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="I have added insertAtLast method in LinkedListInsertion file">
+      <created>1677422893983</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677422893983</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +203,7 @@
     <MESSAGE value="I have added a new file with name LinkedListInsertion and in this file I have added traverse method now" />
     <MESSAGE value="I have added size method in LinkedListInsertion file" />
     <MESSAGE value="I have added insertAtFirst method in LinkedListInsertion file" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have added insertAtFirst method in LinkedListInsertion file" />
+    <MESSAGE value="I have added insertAtLast method in LinkedListInsertion file" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have added insertAtLast method in LinkedListInsertion file" />
   </component>
 </project>
