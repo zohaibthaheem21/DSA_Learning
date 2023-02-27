@@ -103,17 +103,22 @@ public class LinkedListInsertion {
 
 //        list.traverse(head);
 
+//        size method
 //        System.out.println(size(head));
 
+//        insertAtFirst method
 //        head = insertAtFirst(head,21);
 //        list.traverse(head);
 
+//        insertAtLast
 //        head = insertAtLast(head,21);
 //        list.traverse(head);
 
+//        insertAtMid
 //        head = insertAtMid(head,21);
 //        list.traverse(head);
 
+//        inserAtPosition
         head = insertAtPosition(head,21,3);
         list.traverse(head);
     }
