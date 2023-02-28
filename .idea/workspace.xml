@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added insertAMid and insertAtPosition methods in LinkedListInsertion file">
-      <change afterPath="$PROJECT_DIR$/src/LinkedListDeletion.java" afterDir="false" />
+    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added LinkedListDeletion file with some methods">
+      <change afterPath="$PROJECT_DIR$/src/LinkedListOtherMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,14 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedListDeletion">
-    <configuration name="ArrayDeletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayDeletion" />
-      <module name="DSA_Learning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LinkedListOtherMethods">
     <configuration name="ArrayMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayMethods" />
       <module name="DSA_Learning" />
@@ -71,13 +64,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedListOtherMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListOtherMethods" />
+      <module name="DSA_Learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListOtherMethods" />
         <item itemvalue="Application.LinkedListDeletion" />
         <item itemvalue="Application.LinkedListInsertion" />
         <item itemvalue="Application.ArrayMethods" />
         <item itemvalue="Application.ArraySearching" />
-        <item itemvalue="Application.ArrayDeletion" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677499082365</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="I have added LinkedListDeletion file with some methods">
+      <created>1677502951193</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677502951193</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +226,7 @@
     <MESSAGE value="I have added insertAtFirst method in LinkedListInsertion file" />
     <MESSAGE value="I have added insertAtLast method in LinkedListInsertion file" />
     <MESSAGE value="I have added insertAMid and insertAtPosition methods in LinkedListInsertion file" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have added insertAMid and insertAtPosition methods in LinkedListInsertion file" />
+    <MESSAGE value="I have added LinkedListDeletion file with some methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have added LinkedListDeletion file with some methods" />
   </component>
 </project>
