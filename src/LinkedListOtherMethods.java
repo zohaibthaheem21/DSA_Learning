@@ -32,6 +32,43 @@ public class LinkedListOtherMethods {
         }
     }
 
+    // search method
+    public boolean search(Node head, int target) {
+        for (Node n=head; n!=null; n=n.next) {
+            if (n.data==target) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // isAscending method
+    public boolean isAscending(Node head) {
+        if (head==null || head.next==null) return true;
+        for (Node n=head; n.next.next!=null; n=n.next) {
+            if (n.data > n.next.data) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    // isDescending method
+    public boolean isDescending(Node head) {
+        if (head==null || head.next==null) {
+            return true;
+        }
+        for (Node n=head; n.next.next!=null; n=n.next){
+            if (n.data < n.next.data) return false;
+        }
+        return true;
+    }
+
+    // isSorted
+    public boolean sorted(Node head) {
+        return (isAscending(head) || isDescending(head));
+    }
+
     // main method
     public static void main(String[] args) {
         LinkedListOtherMethods list = new LinkedListOtherMethods();
@@ -45,7 +82,15 @@ public class LinkedListOtherMethods {
 
 //        System.out.println(size(head));
 
-        list.update(head,10,21);
-        list.traverse(head);
+//        list.update(head,10,21);
+//        list.traverse(head);
+
+//        System.out.println(list.search(head,10));
+
+//        System.out.println(list.isAscending(head));
+
+//        System.out.println(list.isDescending(head));
+
+        System.out.println(list.sorted(head));
     }
 }
