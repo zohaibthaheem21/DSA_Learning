@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added LinkedListOtherMethods file with search, isAscending, isDescending and sorted methods">
+    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added LinkedListOtherMethods file with highest, lowest, mid and frequency methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedListOtherMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListOtherMethods.java" afterDir="false" />
     </list>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677667614161</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="I have added LinkedListOtherMethods file with highest, lowest, mid and frequency methods">
+      <created>1677758470848</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677758470848</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +250,7 @@
     <MESSAGE value="I have added LinkedListDeletion file with some methods" />
     <MESSAGE value="I have added LinkedListOtherMethods file with update method" />
     <MESSAGE value="I have added LinkedListOtherMethods file with search, isAscending, isDescending and sorted methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have added LinkedListOtherMethods file with search, isAscending, isDescending and sorted methods" />
+    <MESSAGE value="I have added LinkedListOtherMethods file with highest, lowest, mid and frequency methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have added LinkedListOtherMethods file with highest, lowest, mid and frequency methods" />
   </component>
 </project>

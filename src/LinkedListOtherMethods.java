@@ -97,6 +97,8 @@ public class LinkedListOtherMethods {
         }
         return temp.data;
     }
+
+    // frequency
     public int frequency(Node head,int value) {
         int count = 0;
         for (Node n=head;n!=null; n=n.next) {
@@ -107,7 +109,28 @@ public class LinkedListOtherMethods {
         return count;
     }
 
-    // frequency
+    // concatenate
+    public Node concatenate(Node p,Node q){
+        if(p==null)return q;
+        if(q==null)return p;
+        Node temp = p;
+        while (temp.next!=null){
+            temp=temp.next;
+        }
+        temp.next = q;
+        return p;
+    }
+
+    // copy method
+    public Node copy(Node head) {
+        Node start = new Node(head.data);
+        Node q = start;
+        for (Node n=head.next; n!=null; n=n.next) {
+            q.next = new Node(n.data);
+            q = q.next;
+        }
+        return start;
+    }
 
     // main method
     public static void main(String[] args) {
@@ -117,6 +140,13 @@ public class LinkedListOtherMethods {
         head.next.next = new Node(30);
         head.next.next.next = new Node(40);
         head.next.next.next.next = new Node(50);
+
+        // second node
+        Node start = new Node(60);
+        start.next = new Node(70);
+        start.next.next = new Node(80);
+        start.next.next.next = new Node(90);
+        start.next.next.next.next = new Node(100);
 
 //        list.traverse(head);
 
@@ -139,6 +169,12 @@ public class LinkedListOtherMethods {
 
 //        System.out.println(list.mid(head));
 
-        System.out.println(list.frequency(head,10));
+//        System.out.println(list.frequency(head,10));
+
+//        head = list.copy(head);
+//        list.traverse(head);
+
+        head = list.concatenate(head,start);
+        list.traverse(head);
     }
 }
