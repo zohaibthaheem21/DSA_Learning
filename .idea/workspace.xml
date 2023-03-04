@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added LinkedListOtherMethods file with highest, lowest, mid and frequency methods">
+    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added LinkedListOtherMethods file with copy and concatenate methods">
+      <change afterPath="$PROJECT_DIR$/src/StackClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListOtherMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListOtherMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +35,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedListOtherMethods">
+  <component name="RunManager" selected="Application.StackClass">
     <configuration name="ArrayMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayMethods" />
-      <module name="DSA_Learning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraySearching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraySearching" />
       <module name="DSA_Learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,13 +64,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackClass" />
+      <module name="DSA_Learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackClass" />
         <item itemvalue="Application.LinkedListOtherMethods" />
         <item itemvalue="Application.LinkedListDeletion" />
         <item itemvalue="Application.LinkedListInsertion" />
         <item itemvalue="Application.ArrayMethods" />
-        <item itemvalue="Application.ArraySearching" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677758470848</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="I have added LinkedListOtherMethods file with copy and concatenate methods">
+      <created>1677843526883</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677843526883</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +258,7 @@
     <MESSAGE value="I have added LinkedListOtherMethods file with update method" />
     <MESSAGE value="I have added LinkedListOtherMethods file with search, isAscending, isDescending and sorted methods" />
     <MESSAGE value="I have added LinkedListOtherMethods file with highest, lowest, mid and frequency methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have added LinkedListOtherMethods file with highest, lowest, mid and frequency methods" />
+    <MESSAGE value="I have added LinkedListOtherMethods file with copy and concatenate methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have added LinkedListOtherMethods file with copy and concatenate methods" />
   </component>
 </project>
