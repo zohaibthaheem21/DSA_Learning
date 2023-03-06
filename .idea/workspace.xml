@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added StackClass with isEmpty, push, pop and peek method">
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree.java" afterDir="false" />
+    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added BinaryTree file with toString, preOrder, postOrder, isLeaf, isFull, height, size and search methods.">
+      <change afterPath="$PROJECT_DIR$/src/LinkedListStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.LinkedListStack (1)">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree" />
       <module name="DSA_Learning" />
@@ -43,22 +43,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDeletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedListDeletion" />
-      <module name="DSA_Learning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListInsertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedListInsertion" />
-      <module name="DSA_Learning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkedListOtherMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedListOtherMethods" />
+      <module name="DSA_Learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListStack (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListStack" />
+      <module name="DSA_Learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListStack" />
       <module name="DSA_Learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,11 +73,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListStack (1)" />
+        <item itemvalue="Application.LinkedListStack" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.StackClass" />
         <item itemvalue="Application.LinkedListOtherMethods" />
-        <item itemvalue="Application.LinkedListDeletion" />
-        <item itemvalue="Application.LinkedListInsertion" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677926789558</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="I have added BinaryTree file with toString, preOrder, postOrder, isLeaf, isFull, height, size and search methods.">
+      <created>1678015669878</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678015669878</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,6 +274,7 @@
     <MESSAGE value="I have added LinkedListOtherMethods file with highest, lowest, mid and frequency methods" />
     <MESSAGE value="I have added LinkedListOtherMethods file with copy and concatenate methods" />
     <MESSAGE value="I have added StackClass with isEmpty, push, pop and peek method" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have added StackClass with isEmpty, push, pop and peek method" />
+    <MESSAGE value="I have added BinaryTree file with toString, preOrder, postOrder, isLeaf, isFull, height, size and search methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="I have added BinaryTree file with toString, preOrder, postOrder, isLeaf, isFull, height, size and search methods." />
   </component>
 </project>
