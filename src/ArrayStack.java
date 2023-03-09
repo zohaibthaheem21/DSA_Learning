@@ -12,14 +12,14 @@ public class ArrayStack {
 
     // push()
     public void push(int data) {
-        if (top == size-1) throw new IllegalArgumentException("Exception");
+        if (top == size - 1) throw new IllegalArgumentException("Exception");
         top++;
         a[top] = data;
     }
 
     // pop()
     public int pop() {
-        if (top<0) throw new IllegalArgumentException("Exception");
+        if (top < 0) throw new IllegalArgumentException("Exception");
         int temp = a[top];
         top--;
         return temp;
@@ -27,13 +27,13 @@ public class ArrayStack {
 
     // peek()
     public int peek() {
-        if (top<0) throw new IllegalArgumentException("Exception");
+        if (top < 0) throw new IllegalArgumentException("Exception");
         return a[top];
     }
 
     // isEmpty()
     public boolean isEmpty() {
-        if (top<0) return true;
+        if (top < 0) return true;
         return false;
     }
 
@@ -44,7 +44,7 @@ public class ArrayStack {
 
     // search()
     public boolean search(int value) {
-        for (int i=0; i<a.length; i++) {
+        for (int i = 0; i < a.length; i++) {
             if (a[i] == value) {
                 return true;
             }
