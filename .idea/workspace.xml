@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added ArrayStack file with few new methods like -&gt; search, getSize, pop, peek, display and isEmpty.">
+    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/src/ArrayQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayStack">
+  <component name="RunManager" selected="Application.ArrayQueue">
+    <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayQueue" />
+      <module name="DSA_Learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayStack" />
       <module name="DSA_Learning" />
@@ -65,20 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackClass" />
-      <module name="DSA_Learning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayQueue" />
         <item itemvalue="Application.ArrayStack" />
         <item itemvalue="Application.LinkedListStack (1)" />
         <item itemvalue="Application.LinkedListStack" />
         <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.StackClass" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678186311636</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="initial commit">
+      <created>1678366321684</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678366321684</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +288,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I have added the insertAtFirst method and traverse method" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="I am adding Search methods file." />
     <MESSAGE value="I am adding methods of array in this file." />
     <MESSAGE value="I have added a new file with name LinkedListInsertion and in this file I have added traverse method now" />
@@ -300,6 +305,7 @@
     <MESSAGE value="I have addedLinkedListStack file again but with two others methods search and display and practiced." />
     <MESSAGE value="I have added ArrayStack file with ArrayStack constructor and push method only and main method." />
     <MESSAGE value="I have added ArrayStack file with few new methods like -&gt; search, getSize, pop, peek, display and isEmpty." />
-    <option name="LAST_COMMIT_MESSAGE" value="I have added ArrayStack file with few new methods like -&gt; search, getSize, pop, peek, display and isEmpty." />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
