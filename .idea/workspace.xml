@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added ArrayQueue file with only isEmpty() method">
+    <list default="true" id="3bf586ac-a997-4ed1-9178-b2e53d0e7102" name="Changes" comment="I have added ArrayQueue with size, add, first add, remove and resize methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayQueue.java" afterDir="false" />
     </list>
@@ -279,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678448394825</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="I have added ArrayQueue with size, add, first add, remove and resize methods">
+      <created>1678449440919</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1678449440919</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,6 +321,7 @@
     <MESSAGE value="I have added ArrayStack file with few new methods like -&gt; search, getSize, pop, peek, display and isEmpty." />
     <MESSAGE value="initial commit" />
     <MESSAGE value="I have added ArrayQueue file with only isEmpty() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have added ArrayQueue file with only isEmpty() method" />
+    <MESSAGE value="I have added ArrayQueue with size, add, first add, remove and resize methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have added ArrayQueue with size, add, first add, remove and resize methods" />
   </component>
 </project>

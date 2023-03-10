@@ -49,15 +49,20 @@ public class ArrayQueue {
 
     // main method
     public static void main(String[] args) {
-        ArrayQueue queue = new ArrayQueue(5);
+        ArrayQueue queue = new ArrayQueue(10);
 
-        System.out.println("isEmpty : "+queue.isEmpty());
+//        System.out.println("isEmpty : "+queue.isEmpty());
 
         queue.add(10);
         queue.add(20);
         queue.add(30);
         queue.add(40);
         queue.add(50);
+        queue.add(60);
+        queue.add(70);
+        queue.add(80);
+        queue.add(90);
+        queue.add(100);
 
         while (!queue.isEmpty()) {
             System.out.println(queue.first());
